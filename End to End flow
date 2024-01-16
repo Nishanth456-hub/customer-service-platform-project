@@ -1,0 +1,11 @@
+Open your browser and navigate to http://localhost:3000 to access the React app.
+
+Click on the "Login with Google" button to initiate the Google OAuth login.
+
+After successful login, you'll be redirected to the dashboard. Use the customer service form to submit a request. This request will be sent to the backend, and the Socket.IO server will broadcast the update to all connected clients, including the React frontend.
+
+Check the React app to see the real-time update of the submitted customer service request.
+
+Optionally, you can enhance the app by implementing user profiles, edit, and delete functionality as described in the previous responses.
+
+Ensure that you have valid API keys and credentials for Google OAuth and Intercom.com, and update the corresponding files with the correct values. Always keep your credentials secure and do not expose them in your code repositories.
